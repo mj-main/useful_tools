@@ -24,3 +24,5 @@ pip install librosa numpy==1.19.3 pydub
 python get_text.py --fname [fname] --api [api key]
 ```
 ![nn](./img/get_text.jpg)
+
+- language 기본값은 korean으로 되어 있으며 english, japanese 등 다양한 언어를 지원합니다.
