@@ -35,7 +35,7 @@ def get_raw(filename, duration=30):
     audio_array = audio_array.reshape(num, -1)
 
     for i in range(num):
-        output_fname = filename[:-4] + "_" + str(i)
+        output_fname = filename[:-4] + "_" + str(i).zfill(4)
 
         sf.write("./temp/" + output_fname + '.wav', audio_array[i], 16000, 'PCM_16')
 
