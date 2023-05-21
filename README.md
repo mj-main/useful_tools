@@ -7,3 +7,5 @@
 | 1 |Youtube2mp3.py   |유튜브 url로 음원 다운로드        |
 | 2 |stt_from_audio.py|음원을 음성인식해서 텍스트 생성    |
 | 3 |merge_book.py    |전자책을 캡처해서 pdf로 저장      |
+| 4 |chatgpt.py       |터미널에서 chatgpt 사용          |
+
